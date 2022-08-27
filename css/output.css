@@ -563,6 +563,10 @@ video {
   margin-right: 8rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -723,11 +727,6 @@ video {
   padding-right: 18rem;
 }
 
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
 .px-64 {
   padding-left: 16rem;
   padding-right: 16rem;
@@ -753,12 +752,25 @@ video {
   padding-right: 9rem;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
 
 .pb-28 {
   padding-bottom: 7rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .pt-10 {
@@ -792,19 +804,24 @@ video {
   line-height: 2.25rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold {
