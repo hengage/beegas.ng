@@ -26,16 +26,16 @@
 
             <div class="block">
                 <ul class="flex space-x-12 text-textcolor2 text-lg font-serif">
-                    <li class=" font-semibold" ;>
+                    <li class="font-semibold hover:text-secondary" ;>
                         <a href="/">Home</a>
                     </li>
 
-                    <li class=" font-semibold" ;>
-                        <a href="/about.html">About us
+                    <li class=" font-semibold hover:text-secondary";>
+                        <a href="/about.html" class="">About us
                         </a>
                     </li>
 
-                    <li class="font-semibold" ;>
+                    <li class="font-semibold hover:text-secondary" ;>
                         <a href="#">Contact us
                         </a>
                     </li>
@@ -112,24 +112,37 @@
     </section>
 
     
-    <footer class="bg-gray-100 py-14 px-80 flex justify-around font-serif">
+    <footer class="bg-gray-100 py-14 px-64 flex justify-around font-serif">
         <div class="left-col space-y-5">
             <h2 class="uppercase text-xl text-textcolor1 font-semibold">bee gas and marketing ltd</h2>
 
-            <div class="space-y-2 text-base text-textcolor2">
-                <p class="">14 ilaje road, bariga, lagos state</p>
-                <a class=" block" href="tel:09056883516">09056883516</a>
-                <a class=" block" href="mailto:beegas13@gmail.com">beegas13@gmail.com</a>
-            </div>
+                <ul class="space-y-2 text-base text-textcolor2">
+                    <li>
+                        14 ilaje road, bariga, lagos state
+                    </li>
+                    <li>
+                        <a class="hover:text-secondary" href="tel:09056883516">
+                        09056883516
+                    </a>
+                    </li>
+                    <li>
+                        <a class="hover:text-secondary" href="mailto:beegas13@gmail.com">
+                            beegas13@gmail.com
+                        </a>
+                    </li>
+                </ul>
         </div>
 
-        <div class="right-col space-y-2 text-base text-textcolor2">
-            <p>
-                <a href="/about.html">About us</a>
-            </p>
-            <p>
-                <a href="/">Go top</a>
-            </p>
+        <div class="right-col">
+            <ul class="space-y-2 text-base text-textcolor2">
+                <li class="hover:text-secondary">
+                    <a href="/about.html">About us</a>
+                </li>
+
+                <li class="hover:text-secondary">
+                    <a href="/">Go top</a>
+                </li>
+            </ul>
         </div>
     </footer>
 

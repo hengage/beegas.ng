@@ -716,9 +716,9 @@ video {
   padding-bottom: 3.5rem;
 }
 
-.px-80 {
-  padding-left: 20rem;
-  padding-right: 20rem;
+.px-64 {
+  padding-left: 16rem;
+  padding-right: 16rem;
 }
 
 .px-32 {
@@ -739,6 +739,11 @@ video {
 .px-36 {
   padding-left: 9rem;
   padding-right: 9rem;
+}
+
+.px-80 {
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 
 .pt-20 {
@@ -829,4 +834,9 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(45 49 145 / var(--tw-text-opacity));
+}
+
+.hover\:text-secondary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(231 142 38 / var(--tw-text-opacity));
 }
