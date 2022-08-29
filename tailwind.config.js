@@ -13,6 +13,9 @@ module.exports = {
         "secondary": "#e78e26",
         "textcolor1": "#3b3333",
         "textcolor2": "#606060",
+      },
+      screens: {
+        'mdlg': '915px'
       }
     },
   },
