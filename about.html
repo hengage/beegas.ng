@@ -16,32 +16,42 @@
 </head>
 
 <body>
-    <header style="bordr: 2px solid blue" class="fle justify-center py-5 bg-gay-100">
-        <nav class="flex  flex-co justify-between space-y-7 px-24" style="bordr: 1px solid red; text-align: ceter;">
+    <header style="brder: 3px solid blue" class="fle justify-center py-5 bg-gay-100">
+        <div class="flex flex-co justify-between space-y-1 px-1 sm:px-11 " style="boder: 1px solid red; text-align: ceter;">
             <div class="">
                 <a href="/">
-                <img src="images\beegas_logo.jfif" alt="beegas logo" srcset="" class="w-44">
+                <img src="images\beegas_logo.jfif" alt="beegas logo" srcset="" class="w-24 sm:w-44 ">
                 </a>
             </div>
 
-            <div class="block">
-                <ul class="flex space-x-12 text-textcolor2 text-lg font-serif">
-                    <li class="font-semibold hover:text-secondary" ;>
-                        <a href="/">Home</a>
-                    </li>
-
-                    <li class=" font-semibold hover:text-secondary";>
-                        <a href="/about.html" class="">About us
-                        </a>
-                    </li>
-
-                    <li class="font-semibold hover:text-secondary" ;>
-                        <a href="#footer">Contact us
-                        </a>
-                    </li>
-                </ul>
+            <div class=" z-40" style="boder: 2px dotted blue;">       
+                <div class=" md:hidden float-right  cursor-pointer" id="menu-bar">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                
+                <nav class="nav hidden md:block mt-7 md:mt-0 clear-both" id="menu-tray" style="brder: 3px dotted gray">
+                    <ul class="flex flex-col md:flex-row md:space-x-12 text-textcolor2 text-right 
+                        text-lg font-serif space-y-2 md:space-y-0" 
+                    style="boder: 3px solid green;">
+                        <li class="font-semibold hover:text-secondary" ;>
+                            <a href="/">Home</a>
+                        </li>
+    
+                        <li class=" font-semibold hover:text-secondary";>
+                            <a href="/about.html" class="">About us
+                            </a>
+                        </li>
+    
+                        <li class="font-semibold hover:text-secondary"; id="contact-link">
+                            <a href="#footer">Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </nav>
+        </div>
     </header>
 
 
@@ -137,6 +147,8 @@
 
         <div class="text-xs text-textcolor2 text-center mt-12">&COPY; <span>Bee Gas and Marketing</span></div>
     </footer>
+
+    <script src="js/index.js"></script>
 
 </body>
 
