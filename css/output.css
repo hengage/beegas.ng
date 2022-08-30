@@ -600,24 +600,12 @@ video {
   height: auto;
 }
 
-.h-36 {
-  height: 9rem;
-}
-
-.h-64 {
-  height: 16rem;
+.h-44 {
+  height: 11rem;
 }
 
 .w-44 {
   width: 11rem;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
-.w-64 {
-  width: 16rem;
 }
 
 .max-w-full {
@@ -704,12 +692,6 @@ video {
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-9 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(2.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -753,29 +735,14 @@ video {
   padding-right: 1.25rem;
 }
 
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
-.px-44 {
-  padding-left: 11rem;
-  padding-right: 11rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-.px-36 {
-  padding-left: 9rem;
-  padding-right: 9rem;
-}
-
-.px-64 {
-  padding-left: 16rem;
-  padding-right: 16rem;
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pt-7 {
@@ -804,10 +771,6 @@ video {
 
 .pb-16 {
   padding-bottom: 4rem;
-}
-
-.pt-14 {
-  padding-top: 3.5rem;
 }
 
 .text-center {
@@ -891,12 +854,30 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .sm\:mr-12 {
     margin-right: 3rem;
   }
 
+  .sm\:h-64 {
+    height: 16rem;
+  }
+
   .sm\:w-11\/12 {
     width: 91.666667%;
+  }
+
+  .sm\:w-64 {
+    width: 16rem;
+  }
+
+  .sm\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 }
 
@@ -917,6 +898,16 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .md\:pt-20 {
@@ -949,6 +940,28 @@ video {
   .lg\:px-64 {
     padding-left: 16rem;
     padding-right: 16rem;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:px-44 {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+
+  .lg\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-44 {
+    padding-left: 11rem;
+    padding-right: 11rem;
   }
 }
 
