@@ -725,9 +725,9 @@ video {
   padding-right: 1.5rem;
 }
 
-.py-9 {
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .px-5 {
@@ -745,8 +745,8 @@ video {
   padding-right: 0.5rem;
 }
 
-.pt-7 {
-  padding-top: 1.75rem;
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .pb-28 {
