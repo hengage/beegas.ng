@@ -30,8 +30,8 @@
 nav.menu-tray {
     display: block;
     width: 100%;
-    height: 70vh;
-    background: #20272e;
+    height: 100vh;
+    background: #040752;
     z-index: 99;
     position: fixed;
     right: 0;
